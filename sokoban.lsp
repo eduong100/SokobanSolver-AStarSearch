@@ -9,7 +9,7 @@
 ; OR, you can simply view a list of consecutive states with
 ; (sokoban INPUT-BOARD HEURISTIC)
 ;
-; See README for more details
+; Example boards are given towards the end of the README and sokoban.lsp
 ;
 ; *********************
 ;    READ THIS FIRST
@@ -524,7 +524,7 @@
 	)
 )
 
-; Given the coordinates of every box and goal, calculate the sum on minimum manhattan distances
+; Given the coordinates of every box and goal, calculate the sum of minimum manhattan distances
 (defun sum-distances (boxes goals)
 	(cond
 		((equal boxes nil) 0)
@@ -541,7 +541,7 @@
 	)
 )
 
-; Return true if box is surrounded by wallks s.t. it is stuck
+; Return true if box is surrounded by walls s.t. it is stuck
 ; False otherwise
 (defun test-deadlock (s box)
 	(let* 
