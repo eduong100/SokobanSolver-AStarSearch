@@ -5,7 +5,7 @@ Grade: A
 
 ![SOKOBAN EXAMPLE](./readme_resources/SokobanExample.gif)
 
-<h3>What is Sokoban?</h3>
+<h3>What is Sokoban? (from Wikipedia)</h3>
 
 Sokoban is a puzzle video game in which the player pushes crates or boxes around in a warehouse, trying to get them to storage locations. The game was designed in 1981 by Hiroyuki Imabayashi, and first published in December 1982.
 
